@@ -1,15 +1,18 @@
 .jumbotron {
-  margin: 5% auto;
-  margin-left: 38%;
+
 }
 
 p {
-  margin-left: 115px;
+  margin-left: 180px;
 
 }
 
 button{
-  margin-left: 115px;
+  margin-left: 200px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+
 }
 
 td {
@@ -23,4 +26,23 @@ td {
 table {
   margin: auto auto;
   justify-content: center;
+  color: black;
+}
+
+h1 {
+  font-size: 45px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container {
+  background-color: peachpuff;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+body {
+  background-color: peachpuff;
 }
